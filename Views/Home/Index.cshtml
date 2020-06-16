@@ -1,8 +1,128 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "IZ: NPC Tracker";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <form action="/" method="post">
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <td><input type="text" name="name" /></td>
+            </tr>
+            <tr>
+                <th>Fighting Die</th>
+                <td>
+                    <input type="radio" id="fightingDie4" name="fightingDie" value="4" />
+                    <label for="fightingDie4">d4</label>
+
+                    <input type="radio" id="fightingDie6" name="fightingDie" value="6" />
+                    <label for="fightingDie6">d6</label>
+
+                    <input type="radio" id="fightingDie8" name="fightingDie" value="8" />
+                    <label for="fightingDie8">d8</label>
+
+                    <input type="radio" id="fightingDie10" name="fightingDie" value="10" />
+                    <label for="fightingDie10">d10</label>
+
+                    <input type="radio" id="fightingDie12" name="fightingDie" value="12" />
+                    <label for="fightingDie12">d12</label>
+                </td>
+            </tr>
+            <tr>
+                <th>Shooting Die</th>
+                <td>
+                    <input type="radio" id="shootingDie4" name="shootingDie" value="4" />
+                    <label for="shootingDie4">d4</label>
+
+                    <input type="radio" id="shootingDie6" name="shootingDie" value="6" />
+                    <label for="shootingDie6">d6</label>
+
+                    <input type="radio" id="shootingDie8" name="shootingDie" value="8" />
+                    <label for="shootingDie8">d8</label>
+
+                    <input type="radio" id="shootingDie10" name="shootingDie" value="10" />
+                    <label for="shootingDie10">d10</label>
+
+                    <input type="radio" id="shootingDie12" name="shootingDie" value="12" />
+                    <label for="shootingDie12">d12</label>
+                </td>
+            </tr>
+            <tr>
+                <th>Throwing Die</th>
+                <td>
+                    <input type="radio" id="throwingDie4" name="throwingDie" value="4" />
+                    <label for="throwingDie4">d4</label>
+
+                    <input type="radio" id="throwingDie6" name="throwingDie" value="6" />
+                    <label for="throwingDie6">d6</label>
+
+                    <input type="radio" id="throwingDie8" name="throwingDie" value="8" />
+                    <label for="throwingDie8">d8</label>
+
+                    <input type="radio" id="throwingDie10" name="throwingDie" value="10" />
+                    <label for="throwingDie10">d10</label>
+
+                    <input type="radio" id="throwingDie12" name="throwingDie" value="12" />
+                    <label for="throwingDie12">d12</label>
+                </td>
+            </tr>
+            <tr>
+                <th>Strength</th>
+                <td>
+                    <input type="radio" id="strength4" name="strength" value="4" />
+                    <label for="strength4">d4</label>
+
+                    <input type="radio" id="strength6" name="strength" value="6" />
+                    <label for="strength6">d6</label>
+
+                    <input type="radio" id="strength8" name="strength" value="8" />
+                    <label for="strength8">d8</label>
+
+                    <input type="radio" id="strength10" name="strength" value="10" />
+                    <label for="strength10">d10</label>
+
+                    <input type="radio" id="strength12" name="strength" value="12" />
+                    <label for="strength12">d12</label>
+                </td>
+            </tr>
+            <tr>
+                <th>Vigor</th>
+                <td>
+                    <input type="radio" id="vigor4" name="vigor" value="4" />
+                    <label for="vigor4">d4</label>
+
+                    <input type="radio" id="vigor6" name="vigor" value="6" />
+                    <label for="vigor6">d6</label>
+
+                    <input type="radio" id="vigor8" name="vigor" value="8" />
+                    <label for="vigor8">d8</label>
+
+                    <input type="radio" id="vigor10" name="vigor" value="10" />
+                    <label for="vigor10">d10</label>
+
+                    <input type="radio" id="vigor12" name="vigor" value="12" />
+                    <label for="vigor12">d12</label>
+                </td>
+            </tr>
+            <tr>
+                <th>Spirit</th>
+                <td>
+                    <input type="radio" id="spirit4" name="spirit" value="4" />
+                    <label for="spirit4">d4</label>
+
+                    <input type="radio" id="spirit6" name="spirit" value="6" />
+                    <label for="spirit6">d6</label>
+
+                    <input type="radio" id="spirit8" name="spirit" value="8" />
+                    <label for="spirit8">d8</label>
+
+                    <input type="radio" id="spirit10" name="spirit" value="10" />
+                    <label for="spirit10">d10</label>
+
+                    <input type="radio" id="spirit12" name="spirit" value="12" />
+                    <label for="spirit12">d12</label>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit" class="btn btn-dark" />
+    </form>
